@@ -14,6 +14,6 @@ print(elem)
 imie1, imie2, imie3 = imiona
 print(imie1, imie2, imie3)
 
-imie4, imie5, imie6, *lista = imiona2
+imie4, *lista, imie5, imie6 = imiona2
 print(imie4, imie5, imie6)
-print(lista)
+print(lista[0])
