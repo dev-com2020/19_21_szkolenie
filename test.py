@@ -14,3 +14,4 @@ print(10 ** 3)
 print(12 % 5)
 print("Różnica temperatur:", temperaturaPowietrza - temperatura_powietrza)
 print("To jest nowa wersja pliku test")
+
