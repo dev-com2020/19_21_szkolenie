@@ -1,5 +1,6 @@
 # indeks = int(input('Podaj miejsce wstawienia:'))
 # cyfra = input('Podaj ocenę z klasówki:')
+import random
 
 oceny = [5, 3, 5, 3, 4, 4, 2, 1, 4, 3, 3, 4]
 # print(len(oceny))
@@ -22,4 +23,21 @@ print(oceny)
 oceny2 = oceny.copy()
 oceny2[-1] = 33
 print("Oceny2", oceny2)
+print(oceny)
+loteria = random.choice(oceny)
+print("Wylosowana liczba z tabeli ocen:", loteria)
+
+kostka6 = random.randint(1, 6)
+print("Wynik rzutu kością:", kostka6)
+print(random.random() * 1000)
+
+losowe_wartosci = []
+losowe_wartosci.append(int(random.random() * 1000))
+losowe_wartosci.append(int(random.random() * 1000))
+losowe_wartosci.append(int(random.random() * 1000))
+losowe_wartosci.append(int(random.random() * 1000))
+losowe_wartosci.append(int(random.random() * 1000))
+losowe_wartosci.append(int(random.random() * 1000))
+losowe_wartosci.append(int(random.random() * 1000))
+print(losowe_wartosci)
 
