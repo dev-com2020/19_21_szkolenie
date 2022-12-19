@@ -20,6 +20,16 @@ print(imie[0:3])
 print(imie[:3])
 print(imie[-3:-1])
 print(imie[-2:])
+s = "Pan Jan Kowalski"
+print(len(s))
+print(s.removeprefix("Pan "))
+print(s.removeprefix("Pani "))
+# print(s.removesuffix("ie"))
+print(s.removesuffix("fjdijfdifj"))
+# imie[3] = "y" tak się nie da
+
+
+
 
 
 
