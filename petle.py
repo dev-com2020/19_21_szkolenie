@@ -32,7 +32,7 @@
 #
 # print(oplata)
 
-zamowienie = 247
+# zamowienie = 247
 
 # if zamowienie > 100:
 #     rabat = 0.10
@@ -41,5 +41,21 @@ zamowienie = 247
 #
 # print(f"Twoje zamówienie na kwotę {zamowienie} otrzymuje rabat w wysokości: {rabat}")
 
-rabat = 0.10 if zamowienie > 100 else 0.0
-print(f"Twoje zamówienie na kwotę {zamowienie} otrzymuje rabat w wysokości: {rabat}")
+# rabat = 0.10 if zamowienie > 100 else 0.0
+# print(f"Twoje zamówienie na kwotę {zamowienie} otrzymuje rabat w wysokości: {rabat}")
+
+alert = 'console'
+error = 'medium'
+message = 'warning!!!'
+
+if alert == 'console':
+    print(message)
+elif alert == 'email':
+    if error == 'critical':
+        print("Wysyłam maila....")
+    elif error == 'medium':
+        print("Wysyłam mniej ważnego maila....")
+    else:
+        print("Wysyłam maila ale później")
+else:
+    print("Błędny status alertu")
