@@ -1,4 +1,5 @@
 a = 9
+
 def pierwsza():
     global a
     a = 1
@@ -10,6 +11,6 @@ def druga():
     return a + c
 
 
-print(pierwsza())
-print(druga())
+# print(pierwsza())
+# print(druga())
 print(a)
