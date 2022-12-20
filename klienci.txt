@@ -1,0 +1,6 @@
+Jan Kowalski
+42
+Paweł W
+35
+['Paweł W', 'Tomek', 'Radek']
+Renia
