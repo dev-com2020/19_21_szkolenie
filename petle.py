@@ -32,3 +32,14 @@
 #
 # print(oplata)
 
+zamowienie = 247
+
+# if zamowienie > 100:
+#     rabat = 0.10
+# else:
+#     rabat = 0.0
+#
+# print(f"Twoje zamówienie na kwotę {zamowienie} otrzymuje rabat w wysokości: {rabat}")
+
+rabat = 0.10 if zamowienie > 100 else 0.0
+print(f"Twoje zamówienie na kwotę {zamowienie} otrzymuje rabat w wysokości: {rabat}")
