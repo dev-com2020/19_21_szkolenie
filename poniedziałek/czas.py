@@ -1,6 +1,5 @@
 import calendar as c
 import time
-
 import arrow
 
 print(c.calendar(2022))
@@ -18,5 +17,3 @@ print(time_str2)
 
 print(arrow.now())
 print(arrow.now("Pacific/Pago_Pago"))
-
-
