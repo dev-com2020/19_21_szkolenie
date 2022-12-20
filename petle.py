@@ -27,3 +27,8 @@ lata = [23, 22, 21]
 #
 # for poz, imie in enumerate(imiona, 1):
 #     print(imie, poz)
+
+for i in range(1, 6):
+    for j in range(1, i + 1):
+        print("*", end="")
+    print()
