@@ -11,6 +11,8 @@ cash = float(input("Podaj kwotę wypłaty:"))
 print('Kwota zostanie odjęta od salda')
 savings.pin(cash)
 
-saldo = savings.get_balance()
-print("Aktualne saldo rachunku wynosi", saldo)
+print(savings)
+
+# saldo = savings.get_balance()
+# print("Aktualne saldo rachunku wynosi", saldo)
 
