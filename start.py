@@ -35,3 +35,9 @@ czlowiek3 = Human("Ala", 5, "k")
 czlowiek3.witaj()
 czlowiek3.spacer()
 czlowiek3.policz(15, 65)
+
+czlowiek4 = Human(wiek=14, imie="Magda")
+
+czlowiek4.witaj()
+czlowiek4.spacer()
+czlowiek4.policz(15, 65)

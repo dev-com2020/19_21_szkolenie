@@ -23,7 +23,8 @@ class Human:
     '''
     Klasa Human symuluje powstawanie czlowieka
     '''
-    def __init__(self, imie, wiek, plec):
+
+    def __init__(self, imie="Alicja", wiek=0, plec='k'):
         self.imie = imie
         self.wiek = wiek
         self.plec = plec
