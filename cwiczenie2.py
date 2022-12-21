@@ -11,3 +11,15 @@ import json
 # print(f"Ostatnia moc bohatera to {moc}")
 # for i in lista:
 #     print(i)
+
+persons = {'name': 'Tomek',
+           'age': 39,
+           'children': None,
+           'smoke': False}
+
+# person_json = json.dumps(persons)
+
+with open('osoba.json', 'w') as file:
+    json.dump(persons, file, indent=4)
+
+# print(person_json)
