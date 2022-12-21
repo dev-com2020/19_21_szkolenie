@@ -23,3 +23,4 @@ while jeszcze_raz[0].lower() == 't':
     if len(jeszcze_raz) == 0:
         jeszcze_raz = "t"
 print("Dziękuję! 😎")
+input('Aby zakończyć wciśnij ENTER')
