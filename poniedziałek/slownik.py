@@ -8,10 +8,10 @@ oceny = {
 }
 
 
-print(oceny['pawel'])
+# print(oceny['pawel'])
 print(oceny['pawel'][:3])
 print(oceny['tomek'])
-print(oceny['tomek']['java'])
+# print(oceny['tomek']['java'])
 print(oceny['tomek']['java'][:2])
 print(oceny.items())
 print(oceny.keys())
